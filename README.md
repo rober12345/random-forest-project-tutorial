@@ -47,6 +47,16 @@ Build a first predictive model using Random Forest. Chose an evaluation metric a
 
 Use the app.py to create your pipeline. 
 
-Save your final model in the 'models' folder.
+**Step 5:**
+
+To save your model and be able to use it later use the following code:
+
+```py
+
+import pickle
+
+filename = 'finalized_model.sav'
+pickle.dump(model, open(filename, 'wb'))
+```
 
 In your README file write a brief summary.
