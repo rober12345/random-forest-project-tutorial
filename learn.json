@@ -8,5 +8,6 @@
 	"difficulty": "beginner",
 	"syntax": "python",
 	"duration" : 2,
+    "projectType": "project",
 	"description" : "Use Random Forest algorithm to optimize your previous models done in Titanic dataset"
 }
