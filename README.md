@@ -2,7 +2,7 @@
 # Random Forest Project Tutorial
 <!-- endhide -->
 
-- So far, we have only used the Titanic dataset for reference in our learning process. It has been our guide in the exploratory data analysis, data preprocessing part and a reference in our first model: logisitc regression. In the current project and the next one, Titanic will be our project main data.
+- So far, we have only used the Titanic dataset for reference in our learning process. It has been our guide in the exploratory data analysis, data preprocessing part, and a reference in our first model: logistic regression. In the current project and the next one, Titanic will be our project main data.
 
 - If you have been practicing with Titanic so far, you may have some clean data ready for modeling. If not, we recommend you start doing some eda and cleaning on the Titanic dataset to have it ready for the next two models. 
 
