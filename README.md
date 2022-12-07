@@ -2,13 +2,7 @@
 # Random Forest Project Tutorial
 <!-- endhide -->
 
-- So far, we have only used the Titanic dataset for reference in our learning process. It has been our guide in the exploratory data analysis, data preprocessing part and a reference in our first model: logisitc regression. In the current project and the next one, Titanic will be our project main data.
-
-- If you have been practicing with Titanic so far, you may have some clean data ready for modeling. If not, we recommend you start doing some eda and cleaning on the Titanic dataset to have it ready for the next two models. 
-
-- In this project, practice your new Random Forest skills to try making an accurate prediction of Titanic survival. Then, as always, optimize your hyperparameters.
-
-- If you already have a notebook for Titanic in your Github repo, feel free to use it for this project. Continue your notebook with a new modeling part, this time using Random Forest! If you haven't built a repo for Titanic yet, follow the instructions on how to start this project.
+- In this project, practice your new Random Forest skills trying to predict the success of your marketing campaign. Then, as always, optimize your hyperparameters.
 
 
 ## 🌱  How to start this project
@@ -25,13 +19,13 @@ Once you are finished creating your model, make sure to commit your changes, pus
 
 ## 📝 Instructions
 
-**Predicting Titanic survival using Random Forest**
+**Predicting campaign success using Random Forest**
 
-We need to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc). To be able to predict which passengers were more likely to survive we will use Random Forest to train the model.
+We need to build a project that builds, trains and evaluates a prediction model for the number of ad impressions delivered in a digital marketing campaign.
 
 **Step 1:**
 
-The dataset can be found in this project folder as 'titanic_train.csv' file. You are welcome to load it directly from the link (`https://raw.githubusercontent.com/4GeeksAcademy/random-forest-project-tutorial/main/titanic_train.csv`), or to download it and add it to your data/raw folder. In that case, don't forget to add the data folder to the .gitignore file.
+The dataset can be found in this project folder as 'impressions.csv' file. We will use data from past marketing campaigns in order to predict the outcome of future campaigns. Specifically for this project we will try to predict the number of impressions of a single campaign. You are welcome to load it directly from the link (`https://raw.githubusercontent.com/4GeeksAcademy/random-forest-project-tutorial/main/impressions.csv`), or to download it and add it to your data/raw folder. In that case, don't forget to add the data folder to the .gitignore file.
 
 Time to work on it!
 
