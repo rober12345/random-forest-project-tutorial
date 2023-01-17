@@ -2,8 +2,13 @@
 # Random Forest Project Tutorial
 <!-- endhide -->
 
-- In this project, practice your new Random Forest skills trying to predict the success of your marketing campaign. Then, as always, optimize your hyperparameters.
+- So far, we have only used the Titanic dataset for reference in our learning process. It has been our guide in the exploratory data analysis, data preprocessing part, and a reference in our first model: logistic regression. In the current project and the next one, Titanic will be our project main data.
 
+- If you have been practicing with Titanic so far, you may have some clean data ready for modeling. If not, we recommend you start doing some eda and cleaning on the Titanic dataset to have it ready for the next two models. 
+
+- In this project, practice your new Random Forest skills to try making an accurate prediction of Titanic survival. Then, as always, optimize your hyperparameters.
+
+- If you already have a notebook for Titanic in your Github repo, feel free to use it for this project. Continue your notebook with a new modeling part, this time using Random Forest! If you haven't built a repo for Titanic yet, follow the instructions on how to start this project.
 
 ## 🌱  How to start this project
 
