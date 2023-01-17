@@ -9,5 +9,5 @@
 	"syntax": "python",
 	"duration" : 2,
     "projectType": "project",
-	"description" : "Use Random Forest algorithm to optimize your previous models done in Titanic dataset"
+	"description" : "Use Random Forest algorithm to predict a marketing campaign success by predicting the campaign impressions"
 }
