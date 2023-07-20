@@ -1,22 +1,17 @@
 <!-- hide -->
-# Random Forest Project Tutorial
+# Random Forests
 <!-- endhide -->
 
-- So far, we have only used the Titanic dataset for reference in our learning process. It has been our guide in the exploratory data analysis, data preprocessing part, and a reference in our first model: logistic regression. In the current project and the next one, Titanic will be our project main data.
-
-- If you have been practicing with Titanic so far, you may have some clean data ready for modeling. If not, we recommend you start doing some eda and cleaning on the Titanic dataset to have it ready for the next two models. 
-
-- In this project, practice your new Random Forest skills to try making an accurate prediction of Titanic survival. Then, as always, optimize your hyperparameters.
-
-- If you already have a notebook for Titanic in your Github repo, feel free to use it for this project. Continue your notebook with a new modeling part, this time using Random Forest! If you haven't built a repo for Titanic yet, follow the instructions on how to start this project.
+- Use the data you have analyzed in the previous project.
+- Continue with the development to find a model that fits better.
 
 ## 🌱  How to start this project
 
-You will not be forking this time, please take some time to read this instructions:
+You will not be forking this time, please take some time to read these instructions:
 
 1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).
-2. Open the recently created repository on Gitpod by using the [Gitpod button extension](https://www.gitpod.io/docs/browser-extension/).
-3. Once Gitpod VSCode has finished opening you start your project following the Instructions below.
+2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
+3. Once the Codespace VSCode has finished opening, start your project by following the instructions below.
 
 ## 🚛 How to deliver this project
 
@@ -24,38 +19,24 @@ Once you are finished creating your model, make sure to commit your changes, pus
 
 ## 📝 Instructions
 
-**Predicting campaign success using Random Forest**
+### Predicting diabetes
 
-We need to build a project that builds, trains and evaluates a prediction model for the number of ad impressions delivered in a digital marketing campaign.
+In the previous project we saw how we could use a decision tree to predict data sets related to classification and regression. However, did you know that we can improve the prediction of a tree by using a random forest?
 
-**Step 1:**
+As we have studied, a random forest is a grouping of trees generated with random portions of the data and with random criteria. This view would allow us to improve the effectiveness of the model when an individual tree is not sufficient.
 
-The dataset can be found in this project folder as 'impressions.csv' file. We will use data from past marketing campaigns in order to predict the outcome of future campaigns. Specifically for this project we will try to predict the number of impressions of a single campaign. You are welcome to load it directly from the link (`https://raw.githubusercontent.com/4GeeksAcademy/random-forest-project-tutorial/main/impressions.csv`), or to download it and add it to your data/raw folder. In that case, don't forget to add the data folder to the .gitignore file.
+In this project you will focus on this idea by training the dataset to reduce the $MSE$ and improve the $R^2$.
 
-Time to work on it!
+Remember that the previous project can be found [here](https://github.com/4GeeksAcademy/decision-tree-project-tutorial).
 
-**Step 2:**
+### Step 1: Loading the dataset
 
-Explore and clean the data.
+Load the processed dataset from the previous project (split into training and test samples and analyzed with EDA).
 
-**Step 3:**
+### Step 2: Build a random forest
 
-Build a first predictive model using Random Forest. Chose an evaluation metric and then optimize your model hyperparameters.
+One way to optimize and improve the results when using decision trees is to generate a random forest with enough trees so that there is the necessary variety to enrich the prediction. Train it and analyze its results. Try modifying the two hyperparameters that define the tree with different values and analyze their impact on the final accuracy and plot the conclusions.
 
-**Step 4:**
+### Step 3: Save the model
 
-Use the app.py to create your pipeline. 
-
-**Step 5:**
-
-To save your model and be able to use it later use the following code:
-
-```py
-
-import pickle
-
-filename = 'finalized_model.sav'
-pickle.dump(model, open(filename, 'wb'))
-```
-
-In your README file write a brief summary.
+Store the model in the corresponding folder.
