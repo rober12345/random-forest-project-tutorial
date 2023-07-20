@@ -19,6 +19,16 @@ Once you are finished creating your model, make sure to commit your changes, pus
 
 ## 📝 Instructions
 
+### Predicting diabetes
+
+In the previous project we saw how we could use a decision tree to predict data sets related to classification and regression. However, did you know that we can improve the prediction of a tree by using a random forest?
+
+As we have studied, a random forest is a grouping of trees generated with random portions of the data and with random criteria. This view would allow us to improve the effectiveness of the model when an individual tree is not sufficient.
+
+In this project you will focus on this idea by training the dataset to reduce the $MSE$ and improve the $R^2$.
+
+Remember that the previous project can be found [here](https://github.com/4GeeksAcademy/decision-tree-project-tutorial).
+
 ### Step 1: Loading the dataset
 
 Load the processed dataset from the previous project (split into training and test samples and analyzed with EDA).

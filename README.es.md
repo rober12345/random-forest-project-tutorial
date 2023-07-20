@@ -19,14 +19,24 @@ Una vez que hayas terminado de resolver los ejercicios, asegúrate de confirmar 
 
 ## 📝 Instrucciones
 
-### Paso 1: Carga del conjunto de datos
+### Prediciendo la diabetes
+
+En el proyecto anterior vimos cómo podíamos utilizar un árbol de decisión para predecir conjuntos de datos relacionados con la clasificación y la regresión. Sin embargo, ¿sabías que podemos mejorar la predicción de un árbol utilizando un random forest?
+
+Como hemos estudiado, un random forest es una agrupación de árboles generados con porciones aleatorias de los datos y con criterios también aleatorios. Esta visión nos permitiría mejorar la efectividad del modelo cuando un árbol individual no es suficiente.
+
+En este proyecto te centrarás en esta idea entrenando el conjunto de datos para reducir el $MSE$ y mejorar el $R^2$.
+
+Recuerda que el proyecto anterior puedes encontrarlo [aquí](https://github.com/4GeeksAcademy/decision-tree-project-tutorial).
+
+#### Paso 1: Carga del conjunto de datos
 
 Carga el conjunto de datos procesado del proyecto anterior (dividido en muestras de entrenamiento y pruebas y analizado con el EDA).
 
-### Paso 2: Construye un random forest
+#### Paso 2: Construye un random forest
 
 Una forma de optimizar y mejorar los resultados cuando usamos árboles de decisión es generar un random forest con árboles suficientes de tal forma que haya una variedad necesaria que enriquezca la predicción. Entrénalo y analiza sus resultados. Prueba a modificar los dos hiperparámetros que definen al árbol con distintos valores y analiza su impacto con la precisión final y grafica las conclusiones.
 
-### Paso 3: Guarda el modelo
+#### Paso 3: Guarda el modelo
 
 Almacena el modelo en la carpeta correspondiente.
