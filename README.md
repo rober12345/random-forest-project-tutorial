@@ -25,7 +25,7 @@ In the previous project we saw how we could use a decision tree to predict data 
 
 As we have studied, a random forest is a grouping of trees generated with random portions of the data and with random criteria. This view would allow us to improve the effectiveness of the model when an individual tree is not sufficient.
 
-In this project you will focus on this idea by training the dataset to reduce the $MSE$ and improve the $R^2$.
+In this project you will focus on this idea by training the dataset to improve the $accuracy$.
 
 Remember that the previous project can be found [here](https://github.com/4GeeksAcademy/decision-tree-project-tutorial).
 
