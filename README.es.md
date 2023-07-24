@@ -25,7 +25,7 @@ En el proyecto anterior vimos cómo podíamos utilizar un árbol de decisión pa
 
 Como hemos estudiado, un random forest es una agrupación de árboles generados con porciones aleatorias de los datos y con criterios también aleatorios. Esta visión nos permitiría mejorar la efectividad del modelo cuando un árbol individual no es suficiente.
 
-En este proyecto te centrarás en esta idea entrenando el conjunto de datos para reducir el $MSE$ y mejorar el $R^2$.
+En este proyecto te centrarás en esta idea entrenando el conjunto de datos para mejorar el $accuracy$.
 
 Recuerda que el proyecto anterior puedes encontrarlo [aquí](https://github.com/4GeeksAcademy/decision-tree-project-tutorial).
 
