@@ -1,5 +1,5 @@
 <!-- hide -->
-# Random Forests
+# Random forest - Step by step guide
 <!-- endhide -->
 
 - Use the data you have analyzed in the previous project.
@@ -7,7 +7,7 @@
 
 ## 🌱  How to start this project
 
-You will not be forking this time, please take some time to read these instructions:
+Follow the instructions below:
 
 1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).
 2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
@@ -15,7 +15,7 @@ You will not be forking this time, please take some time to read these instructi
 
 ## 🚛 How to deliver this project
 
-Once you are finished creating your model, make sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
+Once you have finished solving the exercises, be sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
 
 ## 📝 Instructions
 
@@ -40,3 +40,5 @@ One way to optimize and improve the results when using decision trees is to gene
 ### Step 3: Save the model
 
 Store the model in the corresponding folder.
+
+> NOTE: Solution: https://github.com/4GeeksAcademy/random-forest-project-tutorial/blob/main/solution.ipynb
